@@ -1,0 +1,16 @@
+name: update-functions-api
+version: 1.0.0
+summary: A Wercker step for updating the Functions API with types and function definitions
+properties:
+  - name: function:
+    type: string
+    required: true
+  - name: types:
+    type: string
+    required: true
+  - name: api-endpoint:
+    type: string
+    required: true
+  - name: api-oauth-token:
+    type: string
+    required: true
