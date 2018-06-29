@@ -11,5 +11,4 @@ publish:
   steps:
     - install-packages:
         packages: ca-certificates
-    - internal/publish-step:
-        owner: audienceproject
+    - internal/publish-step
